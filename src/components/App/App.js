@@ -4,7 +4,6 @@ import { Signup } from '../Signup';
 export const App = () => {
   return (
     <div className={styles.main}>
-      Hello
       <Signup />
     </div>
   );

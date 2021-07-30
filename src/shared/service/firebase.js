@@ -1,8 +1,8 @@
-require('dotenv').config();
 import firebase from 'firebase/app';
 import 'firebase/firestore';
 import 'firebase/auth';
 import 'firebase/storage';
+require('dotenv').config();
 
 try {
   firebase.initializeApp({
